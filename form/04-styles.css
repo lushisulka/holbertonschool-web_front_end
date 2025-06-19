@@ -891,9 +891,12 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
     border: .1rem solid var(--color-grey);
-    padding-right: 3rem;
     background-color: lightgray;
+}
 
+input[type=text],
+input[type="email"] {
+    padding-right: 3rem;
 }
 
 ::placeholder {
