@@ -843,7 +843,7 @@ ul.row {
     padding-left: 7rem;
 }
 
-.section-title {
+.post-comments .section-title {
     font-variant: small-caps;
 }
 
@@ -865,11 +865,11 @@ fieldset {
     padding: 0 0 2rem;
 }
 
-label{
+label {
     cursor: pointer;
     display: block;
     white-space: nowrap;
     font-size: 1.4rem;
     padding: 0 0.5rem;
-    
+
 }
