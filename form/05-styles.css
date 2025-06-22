@@ -904,6 +904,10 @@ input[type="email"] {
     font-size: var(--font-size-small);
 }
 
+
+:root {
+    --color-light-grey: #f0f0f0; }
+
 /* Form group
 ============================= */
 
@@ -944,7 +948,7 @@ input[type="email"] {
 
 }
 
-.form-group:focus .form-help{
+.form-group:focus-within .form-help{
     max-height: 20rem;
     margin: .4rem 0 0;
 }
