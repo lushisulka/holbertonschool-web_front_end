@@ -904,10 +904,6 @@ input[type="email"] {
     font-size: var(--font-size-small);
 }
 
-
-:root {
-    --color-light-grey: #f0f0f0; }
-
 /* Form group
 ============================= */
 
@@ -920,7 +916,7 @@ input[type="email"] {
 
 .form-grup:focus-within{
     background-color: var(--color-light-grey);
-    transition: 3s;
+    transition: background-color 3s;
 }
 
 /* Form field
