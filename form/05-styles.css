@@ -916,7 +916,7 @@ input[type="email"] {
 
 .form-grup:focus-within{
     background-color: var(--color-light-grey);
-    transition: .3s;
+    transition: 3s;
 }
 
 /* Form field
